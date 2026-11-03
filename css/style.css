@@ -855,3 +855,32 @@
     font-size: 14px;
     font-weight: 600;
 }
+
+/*** Hero text: larger and bolder ***/
+.header-carousel .hero-kicker {
+    font-size: 1.15rem;
+    font-weight: 800 !important;
+}
+
+.header-carousel .hero-title {
+    font-size: clamp(2.3rem, 4.6vw, 4rem);
+    font-weight: 800;
+    line-height: 1.1;
+}
+
+.header-carousel .hero-text {
+    font-size: 1.3rem;
+    font-weight: 600;
+    max-width: 600px;
+    opacity: 1;
+}
+
+.header-carousel .hero-btns .btn {
+    font-weight: 700;
+}
+
+@media (max-width: 575px) {
+    .header-carousel .hero-text {
+        font-size: 1.1rem;
+    }
+}
